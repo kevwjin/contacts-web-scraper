@@ -24,7 +24,7 @@ When running the program, the first notice instructs to share the Google Sheets 
 
 <img src="README_images/ShareFile.png" height=250>
 <img src="README_images/FourSheets.png" height=40>
-<img src="README_images/AccountInput.png" height=160>
+<img src="README_images/AccountInput.png" height=70>
 
 The program will then prompt a warning that “the file must contain 4 sheets for the program to work.” If your file indeed has 4 sheets, hit ‘Enter’ to proceed. The wait to connect to and set up the Google Sheets file may take a few seconds.
 
