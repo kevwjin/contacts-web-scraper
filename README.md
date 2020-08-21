@@ -24,7 +24,7 @@ When running the program, the first notice instructs to share the Google Sheets 
 
 <img src="README_images/ShareFile.png" height=250>
 <img src="README_images/FourSheets.png" height=40>
-<img src="README_images/EnterName.png" height=160>
+<img src="README_images/AccountInput.png" height=160>
 
 The program will then prompt a warning that “the file must contain 4 sheets for the program to work.” If your file indeed has 4 sheets, hit ‘Enter’ to proceed. The wait to connect to and set up the Google Sheets file may take a few seconds.
 
@@ -38,7 +38,7 @@ A menu with the scraping operations will soon appear, and you may proceed to you
 
 For the first operation, insert the keyphrase in the first column of the second sheet of your file. You must insert the keyphrases in order, such that there is no empty cell between keyphrases in the column. Once you confirm the operation, the program will begin scraping, and update the status of your inputs to “to scrape” in the spreadsheet.
 
-<img src="README_images/Input.png" height=100>
+<img src="README_images/KeyphrasesInput.png" height=100>
 
 Occasionally, you may spot a message stating that the “HTML from [website url] was not extracted.” The program will simply ignore the current website and move onto the next website to scrape.
 
