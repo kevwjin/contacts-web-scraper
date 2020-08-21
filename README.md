@@ -21,12 +21,13 @@ In order to run the program, you must have ‘python3’ installed. After downlo
 
 When running the program, the first notice instructs to share the Google Sheets file to the service account email. In your Google Drive, create a new sheet, and add sheets to the file so that there are a total of at least 4 sheets. Once the Google Sheets file is shared with the service account email, enter the name of the Google Sheets file. The name needs to be unique from the names of other Google Sheets; otherwise the program will not create the sheet. To access a previously created file, confirm that you would like to proceed.
 
-
-
+<img src="README_images/ShareFile.png" height=250>
+<img src="README_images/FourSheets.png" height=40>
+<img src="README_images/EnterName.png" height=160>
 
 The program will then prompt a warning that “the file must contain 4 sheets for the program to work.” If your file indeed has 4 sheets, hit ‘Enter’ to proceed. The wait to connect to and set up the Google Sheets file may take a few seconds.
 
-
+<img src="README_images/ProceedToMenu.png" height=250>
 
 A menu with the scraping operations will soon appear, and you may proceed to your desired scrape. At the same time, open your Google Sheets file. The program inserted headers in the first row of every sheet during the set up.
 
@@ -36,10 +37,12 @@ A menu with the scraping operations will soon appear, and you may proceed to you
 
 For the first operation, insert the keyphrase in the first column of the second sheet of your file. You must insert the keyphrases in order, such that there is no empty cell between keyphrases in the column. Once you confirm the operation, the program will begin scraping, and update the status of your inputs to “to scrape” in the spreadsheet.
 
-
+<img src="README_images/Input.png" height=100>
 
 Occasionally, you may spot a message stating that the “HTML from [website url] was not extracted.” The program will simply ignore the current website and move onto the next website to scrape.
 
-
+<img src="README_images/HTMLNotExtracted.png" height=35>
 
 The same process applies to operation 2 and 3. Both operations will append the extracted contact information to the first sheet. Here is an example output. Please note that the scraper is in its first iterations and its performance will be improved upon in the future.
+
+<img src="README_images/SheetOutput.png" height=1000>
