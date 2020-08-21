@@ -17,6 +17,7 @@ All the contact information is filed into your *manually* created Google Sheet f
 In order to run the program, you must have ‘python3’ installed. After downloading all the program files, navigate to the *WebContactSheetManager.py* file through terminal:
 
 **Introductory Terminal Guide**
+
 ‘cd’ by itself is used to navigate to the root directory. For Unix (MacOS, Linux, etc.), ‘ls’ displays the current directory’s contents; use ‘ls’ as a way to view which directories can be navigated to from the current directory. In Windows, the terminal uses ‘dir’ instead. ‘cd Documents’ navigates to the *Documents* directory. When arriving in a directory with the *WebContactSheetManager.py* file, run the script with the command ‘python3 WebContactSheetManager.py’. In order to stop and exit the program, hit ‘Ctrl + C’ in the terminal.
 
 When running the program, the first notice instructs to share the Google Sheets file to the service account email. In your Google Drive, create a new sheet, and add sheets to the file so that there are a total of at least 4 sheets. Once the Google Sheets file is shared with the service account email, enter the name of the Google Sheets file. The name needs to be unique from the names of other Google Sheets; otherwise the program will not create the sheet. To access a previously created file, confirm that you would like to proceed.
