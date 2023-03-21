@@ -44,6 +44,6 @@ Occasionally, you may spot a message stating that the “HTML from [website url]
 
 <img src="README_images/HTMLNotExtracted.png" height=35>
 
-The same process applies to operation 2 and 3. Both operations will append the extracted contact information to the first sheet. Here is an example output. Please note that the scraper is in its first iterations and its performance will be improved upon in the future.
+The same process applies to operation 2 and 3. Both operations will append the extracted contact information to the first sheet. Here is an example output.
 
 <img src="README_images/SheetOutput.png" height=1000>
